@@ -14,7 +14,7 @@ Editor
 ---
 If you are like me, old schooler, using _Vi_ for everyting as a main editor, here is the few lines to have syntax highlights
 
-syn keyword SAS DATA PROC LIBNAME RUN QUIT SQL data proc libname run quit sql MEAN mean Mean FREQ freq Freq TABULATE Tabulate tabulate
-ab ss syn keyword SAS
-hi link SAS keyword
-syn on
+syn keyword SAS DATA PROC LIBNAME RUN QUIT SQL data proc libname run quit sql MEAN mean Mean FREQ freq Freq TABULATE Tabulate tabulate  
+ab ss syn keyword SAS  
+hi link SAS keyword  
+syn on  
