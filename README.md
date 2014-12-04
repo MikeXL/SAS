@@ -9,3 +9,12 @@ If you are a _SQL_ writer like me, then this might be helpful
 3. *PROC MEANS*
 4. *PROC FREQ*
 5. *Machine Learning* (well, or data mining) related proc such as *PROC REG*, *PROC GLM*, *PROC FASTCLUSTER*, *PROC TREE* etc.
+
+Editor
+---
+If you are like me, old schooler, using _Vi_ for everyting as a main editor, here is the few lines to have syntax highlights
+
+syn keyword SAS DATA PROC LIBNAME RUN QUIT SQL data proc libname run quit sql MEAN mean Mean FREQ freq Freq TABULATE Tabulate tabulate
+ab ss syn keyword SAS
+hi link SAS keyword
+syn on
