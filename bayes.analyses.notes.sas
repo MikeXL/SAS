@@ -45,7 +45,7 @@ proc genmod data=sasuser.birth desc;
           outpost=out_birth2 plots(smooth)=all diag=all nmc=25000;
     title 'Bayesian Analysis of Low Birth Weight Model with informative prior for alcohol1';
 run;
-/*Demo #3: PHREG .. what is survival analysis? how that link to telco?*/
+/*Demo #3: PHREG .. what is survival analysis? how that link to telco? churn analysis, time to call, time to device burnout etc. */
 data prior_methadone;
    input _TYPE_ $ dose clinic1 prison;
 datalines;
